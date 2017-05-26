@@ -15,7 +15,7 @@ assert(SWITCH_TIME + SWITCH_DELAY < INTERVAL,
 gl.setup(NATIVE_WIDTH, NATIVE_HEIGHT)
 math.randomseed( os.time() )
 
-local font = resource.load_font("SignPainter.otf")
+local font = resource.load_font("SADSLices-Regular.otf")
 
 local function shuffle( a )
     local c = #a
